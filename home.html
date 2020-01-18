@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+    <title>Visit Nepal 2020</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#">Experiences</a>
+                <a href="#">Festivals</a>
+                <a href="#">Activities</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <span id="home"></span>
+    <section class="s1">
+        <div class="s1-content">
+            <h1>Welcome to Nepal</h1>
+            <h2>Experience of a Lifetime</h2>
+        </div>
+    </section>
+    <span  id="about"> </span>
+    <section class="s2">
+        <div style="width: 60%; float:left" class="s2-left">
+            <h1>About</h1>
+            <p>Visiting Nepal is all about the experience that is only yours. A trekkers' paradise, Nepal combines Himalayan views, golden temples, charming hill villages and jungle wildlife watching to offer one of the world's great travel destinations. From the remotest corners to the urban landscape, Nepal embodies a sensory experience of colours, sounds, sights and tastes. Visit Nepal welcomes you to life’s amazing moments.</p>
+            <div class="btn">
+                <a href="about.html"><button class="btn-select">Read more</button></a>
+            </div>
+        </div>
+        
+        <div style="width: 40%; float:right" class="s2-right">
+            <img src="../img/sec2.jpg" style="width: 428px; height: 322px">
+        </div>
+    </section>
+    <span id="contact"></span>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="img/logo.png" class="logo">
+                
+                <p>Visit Nepal 2020 is a website created for attracting tourism by giving information about Nepal and its culture, landscapes, destinations along with different activities available.</p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i>&nbsp; 01-4256909</span>
+                    <span><i class="fas fa-home"></i>&nbsp; Pradarshani Marg, Kathmandu 44617</span>
+                </div>
+            </div>
+            <div class="footer-section members">
+                <h2>Our Team</h2>
+                <br>
+                <ul>
+                    <a href="#"><li>Aastha Neupane</li></a>
+                    <a href="#"><li>Bajra Manandhar</li></a>
+                    <a href="#"><li>Rasika Pradhan</li></a>
+                    <a href="#"><li>Ritina Maharjan</li></a>
+                    <a href="#"><li>Rojin Subedi</li></a>
+                    <a href="#"><li>Seetal Gurung</li></a>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <div class="form">
+                    <form action="">
+                        <input type="text" class="field" placeholder="First Name" required>        
+                            <input type="email" class="field" placeholder="E-mail" required>        
+                        <textarea type="text" class="field text-area" placeholder="Message" required></textarea>
+                        <div class="footer-btn">
+                            <button type="submit" class="fbtn">Submit</button>
+                        </div>     
+                    </form>
+                </div>
+            </div>
+        <div class="footer-bottom">
+            &copy; Visit Nepal 2020
+        </div>
+    </div>
+</body>
+</html>
