@@ -232,7 +232,7 @@ section.s2 {
 
 .field {
     width: 100%;
-    margin: 15px ;
+    margin: 15px;
     background: #303036;
     color: #bebdbd;
     border: none;
@@ -241,7 +241,7 @@ section.s2 {
 
 .text-area {
     height: 50px;
-}
+}   
 
 .footer-btn {
     text-align: center;
